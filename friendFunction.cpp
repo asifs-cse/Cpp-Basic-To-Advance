@@ -10,13 +10,14 @@ public:
     int area(){
         return height*width;
     }
+    friend class cost;
 };
 class cost{
     int costRate;
 public:
     void setCostValue(int a){costRate = a;}
     int totalCost(rectangle A){
-        return costRate*A.area();
+        return costRate*A.height*A.width;
     }
 };
 int main(){
