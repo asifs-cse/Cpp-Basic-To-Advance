@@ -1,6 +1,14 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
+class rectangle;
+
+class cost{
+    int costRate;
+public:
+    void setCostValue(int a){costRate = a;}
+    int totalCost(rectangle A);
+};
 
 class rectangle{
     int height;
@@ -10,16 +18,14 @@ public:
     int area(){
         return height*width;
     }
-    friend class cost;
+    friend int cost::totalCost(rectangle A);
 };
-class cost{
-    int costRate;
-public:
-    void setCostValue(int a){costRate = a;}
-    int totalCost(rectangle A){
-        return costRate*A.height*A.width;
-    }
-};
+
+
+int cost::totalCost(rectangle A){
+    return costRate*A.height*A.width;
+}
+
 int main(){
     rectangle r;
     r.set(5,6);
