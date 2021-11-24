@@ -15,7 +15,7 @@ class B:public A{
     int y;
     public:
     B(int p, int q):A(p){
-        y=p;
+        y=q;
     }
     void show(){
         cout<<"X = "<<x<<endl;
