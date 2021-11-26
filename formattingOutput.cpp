@@ -1,5 +1,6 @@
 #include<iostream>
 #include<conio.h>
+#include<iomanip>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ int main(){
     cin>>num2;
 
     cout<<showpoint;
+    cout<<setprecision(10);
 
     cout<<"SUM = "<<num1+num2<<endl;
     cout<<"SUB = "<<num1-num2<<endl;
