@@ -17,10 +17,10 @@ int main(){
     cout<<setprecision(2);
     
     cout<<setw(15)<<"SUM = "<<num1+num2<<endl;
-    cout<<"SUB = "<<num1-num2<<endl;
-    cout<<noshowpoint;
-    cout<<"MUL = "<<num1*num2<<endl;
-    cout<<"DIV = "<<num1/num2;
+    cout<<setw(15)<<"SUB = "<<num1-num2<<endl;
+    cout<<setw(15)<<noshowpoint;
+    cout<<setw(15)<<"MUL = "<<num1*num2<<endl;
+    cout<<setw(15)<<"DIV = "<<num1/num2;
     getch();
 
     return 0;
