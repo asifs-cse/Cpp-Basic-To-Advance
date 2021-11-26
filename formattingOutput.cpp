@@ -12,9 +12,10 @@ int main(){
     cin>>num2;
 
     cout<<showpoint;
-    
+
     cout<<"SUM = "<<num1+num2<<endl;
     cout<<"SUB = "<<num1-num2<<endl;
+    cout<<noshowpoint;
     cout<<"MUL = "<<num1*num2<<endl;
     cout<<"DIV = "<<num1/num2;
     getch();
