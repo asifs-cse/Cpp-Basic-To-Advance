@@ -13,7 +13,8 @@ int main(){
     cin>>num2;
 
     cout<<showpoint;
-    cout<<setprecision(10);
+    cout<<fixed;
+    cout<<setprecision(2);
 
     cout<<"SUM = "<<num1+num2<<endl;
     cout<<"SUB = "<<num1-num2<<endl;
