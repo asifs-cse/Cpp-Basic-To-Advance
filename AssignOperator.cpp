@@ -13,6 +13,8 @@ int main(){
     cout<<"Subtraction: "<<a<<endl;
     a*=b;
     cout<<"Multipication: "<<a<<endl;
-
+    a/=b;
+    cout<<"Division: "<<endl;
+    
     return 0;
 }
