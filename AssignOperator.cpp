@@ -11,5 +11,8 @@ int main(){
     cout<<"Addition: "<<a<<endl;
     a-=b;
     cout<<"Subtraction: "<<a<<endl;
+    a*=b;
+    cout<<"Multipication: "<<a<<endl;
+
     return 0;
 }
