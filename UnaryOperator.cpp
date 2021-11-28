@@ -14,7 +14,15 @@ int main(){
     cout<<result<<endl;
     //plus unary 
     result =+a;
-    cout<<result;
+    cout<<result<<endl;
+
+    //post increment
+    result = a++;
+    cout<<result<<endl;
+
+    //pre increment
+    result = ++a;
+    cout<<result<<endl;
 
     return 0;
 }
