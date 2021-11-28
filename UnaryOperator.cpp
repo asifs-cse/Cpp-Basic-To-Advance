@@ -24,5 +24,13 @@ int main(){
     result = ++a;
     cout<<result<<endl;
 
+    //post decrement
+    result =a--;
+    cout<<result<<endl;
+
+    //pre decrement
+    result =--a;
+    cout<<result<<endl;
+
     return 0;
 }
