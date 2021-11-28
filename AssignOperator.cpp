@@ -9,6 +9,7 @@ int main(){
 
     a+=b;
     cout<<"Addition: "<<a<<endl;
-    
+    a-=b;
+    cout<<"Subtraction: "<<a<<endl;
     return 0;
 }
