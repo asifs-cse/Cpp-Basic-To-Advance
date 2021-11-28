@@ -14,7 +14,9 @@ int main(){
     a*=b;
     cout<<"Multipication: "<<a<<endl;
     a/=b;
-    cout<<"Division: "<<endl;
+    cout<<"Division: "<<a<<endl;
+    a%=b;
+    cout<<"Modulation: "<<a<<endl;
     
     return 0;
 }
