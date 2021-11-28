@@ -32,5 +32,7 @@ int main(){
     result =--a;
     cout<<result<<endl;
 
+    //end
+
     return 0;
 }
