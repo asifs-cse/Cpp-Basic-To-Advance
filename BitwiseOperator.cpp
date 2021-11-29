@@ -16,6 +16,11 @@ int main(){
     c=a^b;
     cout<<c<<endl;
 
+    //leftshift
+    c = a>>b;
+    cout<<c;
+    
+
     return 0;
 
 
