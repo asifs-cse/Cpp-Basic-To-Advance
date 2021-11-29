@@ -17,9 +17,12 @@ int main(){
     cout<<c<<endl;
 
     //leftshift
-    c = a>>b;
-    cout<<c;
-    
+    c = a<<c;
+    cout<<c<<endl;
+
+    //right shift
+    c=a>>c;
+    cout<<c<<endl;
 
     return 0;
 
