@@ -6,10 +6,17 @@ int main(){
 
     //bitwise and
     c = a&b;
-    cout<<c;
+    cout<<c<<endl;
 
-    //bitwise ore
+    //bitwise or
     c = a|b;
-    cout<<b;
+    cout<<b<<endl;
+
+    //bitwise x-or
+    c=a^b;
+    cout<<c<<endl;
+
     return 0;
+
+
 }
