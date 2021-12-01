@@ -17,6 +17,10 @@ int main(){
             cout<<"A-";
         }else if(mark>=50 && mark<=40){
             cout<<"B";
+        }else if(mark>=40 && mark<=33){
+            cout<<"C";
+        }else{
+            cout<<"F";
         }
     }cout<<"Envalid mark!";
     
