@@ -6,7 +6,8 @@ int main(){
     char word;
     cout<<"Enter any Alpabet: ";
     cin>>word;
-    if(word =='a' || word == 'e' || word == 'i' || word == 'o' || word == 'u' || word =='A' || word == 'E' || word == 'I' || word == 'O' || word == 'U'){
+    word = tolower(word);
+    if(word =='a' || word == 'e' || word == 'i' || word == 'o' || word == 'u'){
         cout<<"Vowel";
     }else{
         cout<<"Consonant";
