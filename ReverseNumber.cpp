@@ -5,13 +5,12 @@ using namespace std;
 int main(){
     int num, reverseNumber = 0, remainder;
     cout<<"Enter any number: ";
-    cin>>num; //53
+    cin>>num; 
 
     while(num!=0){
-        remainder = num%10; //3 //5
-        cout<<remainder<<endl;
-        reverseNumber = reverseNumber*10 + remainder;  // 3 //50
-        num/=10; //5
+        remainder = num%10; 
+        reverseNumber = reverseNumber*10 + remainder; 
+        num/=10;
     }
     cout<<"Reversed Number = "<<reverseNumber;
     
