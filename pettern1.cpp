@@ -10,5 +10,6 @@ int main(){
     cout<<"It's just prctice";
     cout<<"It's just prctice";
     cout<<"It's just prctice";
+    cout<<"It's just prctice";
     return 0;
 }
