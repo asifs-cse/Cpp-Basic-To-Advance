@@ -10,6 +10,12 @@ int main(){
         cin>>a[i];
     }
     
+    cout<<"Enter secound array values: "<<endl;
+    for (int i = 0; i < 10; i++)
+    {
+        cout<<"Enter "<<i<<" value: ";
+        cin>>b[i];
+    }
     
     
 
