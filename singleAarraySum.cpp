@@ -16,7 +16,12 @@ int main(){
         cout<<"Enter "<<i<<" value: ";
         cin>>b[i];
     }
-    
+    cout<<"Summation or a and b array are: "<<endl;
+    for (int i = 0; i < 10; i++)
+    {
+        c[i]= a[i]+b[i];
+        cout<<"Value of "<<i<<" : "<<c[i]<<endl;
+    }
     
 
     return 0;
