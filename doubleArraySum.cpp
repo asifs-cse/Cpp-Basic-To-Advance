@@ -14,7 +14,15 @@ int main(){
         }
     }
     
-    
+    cout<<"Enter second array values: "<<endl;
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j< 2; j++)
+        {
+            cout<<"Enter "<<i<<j<<" Value: ";
+            cin>>b[2][2];
+        }
+    }
 
     return 0;
 }
