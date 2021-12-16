@@ -21,7 +21,7 @@ void print2DArray(int arr[2][2]){
         {
             cout<<arr[i][j]<<" "; //output array
         }
-        cout<<"\n";
+        cout<<"\n"; //new line start
         
     }
     
