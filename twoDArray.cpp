@@ -5,7 +5,7 @@ void print2DArray(int testArray[2][2]);
 
 int main(){
     int test[2][2]; //array diclear
-    test[0][0]=5;
+    test[0][0]=5; //initaial first value
     test[0][1]=6;
     test[1][0]=7;
     test[1][1]=9;
