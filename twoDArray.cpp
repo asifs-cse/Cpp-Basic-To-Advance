@@ -15,7 +15,7 @@ int main(){
     return 0;
 }
 void print2DArray(int arr[2][2]){
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 2; i++) //for loop start
     {
         for (int j = 0; j < 2; j++)
         {
