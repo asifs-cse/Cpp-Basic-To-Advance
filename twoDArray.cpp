@@ -19,7 +19,7 @@ void print2DArray(int arr[2][2]){
     {
         for (int j = 0; j < 2; j++) //inner loop
         {
-            cout<<arr[i][j]<<" ";
+            cout<<arr[i][j]<<" "; //output array
         }
         cout<<"\n";
         
