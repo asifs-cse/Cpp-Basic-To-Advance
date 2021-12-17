@@ -13,7 +13,7 @@ int main(){
     if (a<=b && a<=c) //check first condition
     {
         cout<<"Smallest number is: "<<a;
-    }else if(b<=a && b<=c){
+    }else if(b<=a && b<=c){ //else condition
         cout<<"Smallest number is: "<<b;
     }else{
         cout<<"Smallest number is: "<<c;
