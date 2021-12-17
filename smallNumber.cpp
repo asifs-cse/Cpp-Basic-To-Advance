@@ -7,7 +7,7 @@ int main(){
     cin>>a;
     cout<<"Enter b: "; //secund input
     cin>>b;
-    cout<<"Ente c: ";
+    cout<<"Ente c: "; //third input
     cin>>c;
 
     if (a<=b && a<=c)
