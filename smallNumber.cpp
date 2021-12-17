@@ -5,7 +5,7 @@ int main(){
     int a,b,c;
     cout<<"Enter a: "; //first input
     cin>>a;
-    cout<<"Enter b: ";
+    cout<<"Enter b: "; //secund input
     cin>>b;
     cout<<"Ente c: ";
     cin>>c;
