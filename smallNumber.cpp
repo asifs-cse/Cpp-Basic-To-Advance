@@ -10,7 +10,7 @@ int main(){
     cout<<"Ente c: "; //third input
     cin>>c;
 
-    if (a<=b && a<=c)
+    if (a<=b && a<=c) //check first condition
     {
         cout<<"Smallest number is: "<<a;
     }else if(b<=a && b<=c){
