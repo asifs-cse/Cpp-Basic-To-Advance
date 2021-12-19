@@ -13,7 +13,7 @@ class summation{
 
 int main(){
     int num =10;
-    summation s();
+    summation s(); //function call
 
     return 0;
 }
