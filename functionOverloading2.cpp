@@ -12,7 +12,8 @@ class summation{
 };
 
 int main(){
-    int num =10;
+    int num =10; //varivable
+    
     summation s(); //function call
 
     return 0;
