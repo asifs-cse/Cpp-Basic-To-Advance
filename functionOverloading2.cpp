@@ -6,7 +6,7 @@ class summation{
     int n;
     summation(int x){
         n=x;
-        cout<<n;
+        cout<<n; //output
         cout<<"Hello"; //OUTPUT 
     }
 };
