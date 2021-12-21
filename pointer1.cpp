@@ -2,9 +2,11 @@
 #include<conio.h>
 using namespace std;
 int main(){
-    int x=10;
+    int x=10, y =30;
     int* pr = &x;
-    cout<<pr;
+    cout<<pr<<endl;
+    cout<<&x<<endl;
+    cout<<*pr;
 
     return 0;
 }
