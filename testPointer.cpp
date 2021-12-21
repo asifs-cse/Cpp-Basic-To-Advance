@@ -6,6 +6,7 @@ int main(){
     int *p, n=5;
     p =&n;
     cout<<p<<endl;
-    cout<<*p;
+    cout<<*p<<endl;
+    cout<<&p;
     return 0;
 }
