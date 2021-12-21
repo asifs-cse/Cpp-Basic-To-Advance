@@ -8,6 +8,6 @@ int main(){
     cout<<*fpr<<endl;
     cout<<&f<<endl;
     *fpr = 45.56;
-    cout<<f;
+    cout<<f<<endl<<*fpr;
     return 0;
 }
