@@ -6,7 +6,7 @@ struct mStruct{
     char c;
     double d;
 };
-int main(){
+int main(){    
     cout<<sizeof(struct mStruct);
     return 0;
 }
