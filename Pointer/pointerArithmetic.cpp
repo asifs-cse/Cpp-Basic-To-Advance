@@ -5,7 +5,7 @@ int main(){
     int x=10;
     int* px =&x;
     cout<<&x<<endl;
-    ++(*px);
+    ++(*px); //pointer increment
     cout<<x;
     return 0;
 }
