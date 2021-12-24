@@ -6,6 +6,7 @@ int main(){
     int* px =&x;
     cout<<&x<<endl;
     ++(*px); //pointer increment
+    --(*px); //pointr decrement
     cout<<x;
     return 0;
 }
