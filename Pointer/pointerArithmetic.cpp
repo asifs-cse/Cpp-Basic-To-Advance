@@ -10,8 +10,8 @@ int main(){
     ++(px); // pointer address increment
     cout<<px<<endl;;
     --(*px); //pointr value decrement
+    cout<<*px<<endl;
     --(px); //pointer address dicrement
-    cout<<px<<endl;
-    cout<<x;
+    cout<<px;
     return 0;
 }
