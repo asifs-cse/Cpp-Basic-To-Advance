@@ -7,5 +7,10 @@ int main(){
     cout<<arr<<endl; //when we print array variable name then comiler show array first index address
     cout<<*arr+0<<endl; //show array first element using pointer
     cout<<arr[0]<<endl; //show array first element using index number
+    for (int i = 0; i < 3; i++)
+    {
+        cout<<*arr+i<<endl;
+    }
+    
     return 0;
 }
