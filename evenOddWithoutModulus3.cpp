@@ -3,7 +3,7 @@
 using namespace std;
 
 bool isEven(int n){
-    return (!(n&1));
+    return (!(n&1)); //return factorial number
 }
 int main(){
     int n =6;
