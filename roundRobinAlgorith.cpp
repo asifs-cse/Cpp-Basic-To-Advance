@@ -6,7 +6,7 @@ int main(){
     float awt=0, atat=0; //float variable
     cout<<"Enter number of process: ";
     cin>>n; //input process number
-    for (i = 0; i < n; i++)
+    for (i = 0; i < n; i++) //input burst vlues
     {
         cout<<"Enter burst time of process "<<i+1<<" :";
         cin>>bt[i]; //input burst time
