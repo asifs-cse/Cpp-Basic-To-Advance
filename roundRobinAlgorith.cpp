@@ -14,7 +14,7 @@ int main(){
     }
     cout<<"Enter quantum time: ";
     cin>>qt;
-    while(1){
+    while(1){  //start while loop
         for (i = 0;count=0; i++)
         {
             temp=qt;
