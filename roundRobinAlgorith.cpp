@@ -10,7 +10,7 @@ int main(){
     {
         cout<<"Enter burst time of process "<<i+1<<" :";
         cin>>bt[i]; //input burst time
-        rem_bt[i] = bt[i];
+        rem_bt[i] = bt[i];  //inital remain values
     }
     cout<<"Enter quantum time: ";
     cin>>qt;
