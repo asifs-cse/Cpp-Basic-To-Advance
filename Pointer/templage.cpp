@@ -8,6 +8,8 @@ T add(T a, T b){
 }
 int main(){
     int a=5,b=6;
-    cout<<"Intiger sum: "<<add(a,b);
+    float c=3.4, d=9.5;
+    cout<<"Intiger sum: "<<add(a,b)<<endl;
+    cout<<"Float sum: "<<add(c,d)<<endl;
     return 0;
 }
