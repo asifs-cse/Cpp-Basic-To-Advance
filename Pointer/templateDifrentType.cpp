@@ -8,6 +8,6 @@ void print(T1 a, T2 b){
 int main(){
     print(1,1); //send integer value
     print(1,1.5); //send integer and float value
-    print(1,"Asif"); 
+    print(1,"Asif"); //send integer and string value
     return 0;
 }
