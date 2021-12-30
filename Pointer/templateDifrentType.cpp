@@ -7,7 +7,7 @@ void print(T1 a, T2 b){
 }
 int main(){
     print(1,1); //send integer value
-    print(1,1.5);
+    print(1,1.5); //send integer and float value
     print(1,"Asif"); 
     return 0;
 }
