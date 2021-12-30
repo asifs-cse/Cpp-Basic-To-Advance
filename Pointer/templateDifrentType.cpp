@@ -3,7 +3,7 @@
 using namespace std;
 template <class T1, class T2>
 void print(T1 a, T2 b){ //accept any type of value
-    cout<<a<<" "<<b<<endl; //print value
+    cout<<a<<" "<<b<<endl; //print value here
 }
 int main(){
     print(1,1); //send integer value
