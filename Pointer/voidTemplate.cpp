@@ -3,7 +3,7 @@
 using namespace std;
 
 template <class T> //template create
-void print(T a){
+void print(T a){ //tamplate function create
     cout<<a;
 }
 int main(){
