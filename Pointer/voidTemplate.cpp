@@ -2,7 +2,7 @@
 #include<conio.h>
 using namespace std;
 
-template <class T>
+template <class T> //template create
 void print(T a){
     cout<<a;
 }
