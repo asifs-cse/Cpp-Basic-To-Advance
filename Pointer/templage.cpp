@@ -3,8 +3,8 @@
 using namespace std;
 
 template <class T> //template create
-T add(T a, T b){
-    return a+b;
+T add(T a, T b){ //template defination
+    return a+b; 
 }
 int main(){
     int a=5,b=6;
