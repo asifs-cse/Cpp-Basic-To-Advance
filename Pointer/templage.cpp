@@ -2,7 +2,7 @@
 #include<conio.h>
 using namespace std;
 
-template <class T>
+template <class T> //template create
 T add(T a, T b){
     return a+b;
 }
