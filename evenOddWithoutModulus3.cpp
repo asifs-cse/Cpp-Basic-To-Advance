@@ -7,6 +7,6 @@ bool isEven(int n){
 }
 int main(){
     int n =6;
-    isEven(n) ? cout<<"Even" : cout<<"Odd";
+    isEven(n) ? cout<<"Even" : cout<<"Odd";  //function call
     return 0;
 }
