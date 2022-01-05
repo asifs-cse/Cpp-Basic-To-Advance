@@ -12,7 +12,7 @@ class Wall{
         length = len;
         height = len;
     }
-    Wall(Wall &obj){
+    Wall(Wall &obj){ //copy constructor
         length = obj.length;
         height = obj.height;
     }
