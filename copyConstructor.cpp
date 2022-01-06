@@ -17,7 +17,7 @@ class Wall{
         height = obj.height;
     }
     double claculateArea(){
-        return height*length;
+        return height*length; // return area
     }
 };
 int main(){
