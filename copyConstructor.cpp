@@ -13,7 +13,7 @@ class Wall{
         height = len;
     }
     Wall(Wall &obj){ //copy constructor
-        length = obj.length;
+        length = obj.length; //initial constructor value
         height = obj.height;
     }
     double claculateArea(){
