@@ -22,6 +22,7 @@ class Wall{
 };
 int main(){
     Wall wall(10.5, 8.6);
-    cout<<"Area of Wall : "<<wall.claculateArea()<<endl;
+    cout<<"Area of Wall : "<<wall.claculateArea()<<endl; //print output
+    
     return 0;
 }
