@@ -21,7 +21,7 @@ class Wall{
     }
 };
 int main(){
-    Wall wall(10.5, 8.6);
+    Wall wall(10.5, 8.6); // object create and send value in constructor
     cout<<"Area of Wall : "<<wall.claculateArea()<<endl; //print output
     
     return 0;
