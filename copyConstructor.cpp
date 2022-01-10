@@ -8,7 +8,7 @@ class Wall{
     double height;
 
     public:
-    Wall(double len, double hgt){
+    Wall(double len, double hgt){ //create constructor
         length = len;
         height = len;
     }
