@@ -5,7 +5,7 @@ class Wall{
     private:
     double length;
     public:
-    Wall(){
+    Wall(){ //defult consturctor
         length = 5.5;
         cout<<"Creating a wall."<<endl;
         cout<<"Length= "<<length<<endl;
