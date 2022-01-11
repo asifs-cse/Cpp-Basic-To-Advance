@@ -4,7 +4,7 @@ using namespace std;
 class Wall{
     private: //private variable
     double length;
-    public:
+    public: //public constructor
     Wall(){ //defult consturctor
         length = 5.5;
         cout<<"Creating a wall."<<endl;
