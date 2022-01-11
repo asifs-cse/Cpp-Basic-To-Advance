@@ -12,7 +12,7 @@ class Wall{
     }
 };
 int main(){
-    Wall wall1;
+    Wall wall1; //call constructor
     return 0;
     return 0;
 }
