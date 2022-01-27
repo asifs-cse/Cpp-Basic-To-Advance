@@ -1,7 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int linerSearch(int arr[], int n, int f){
+int linerSearch(int arr[], int n, int f){ 
+    //search item and return value
     for (int i = 0; i < n; i++)
     {
         if(arr[i]==f) return i;
