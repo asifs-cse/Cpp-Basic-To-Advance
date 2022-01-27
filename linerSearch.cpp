@@ -20,6 +20,7 @@ int main(){
     }
     cout<<"Inpur search item: "<<endl;
     cin>>f;
+    cout<<((linerSearch(arr,n,f)>=0)?"Found":"Not found")<<endl;
     cout<<"Position: "<<linerSearch(arr,n, f);
     
     return 0;
