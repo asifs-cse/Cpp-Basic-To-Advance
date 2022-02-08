@@ -21,9 +21,9 @@ public:
 
 int main()
 {
-derived *d = new derived();
-base *b = d;
-delete b;
+    derived *d = new derived(); //object create
+    base *b = d;
+    delete b;
 
-return 0;
+    return 0;
 }
