@@ -9,11 +9,14 @@ class base{
 
 class derived: public base{
     public:
-        derived(){cout<<"Constrting derived";}
-        virtual ~derived(){"Destrituting derived";}
+        derived(){cout<<"Constrting derived\n";}
+        virtual ~derived(){"Destrituting derived\n";}
 };
 
 int main(){
-    cout<<"Virtual destrector"<<endl;
+    derived *d = new derived();
+    base *b = d;
+    delete b;
+
     return 0;
 }
