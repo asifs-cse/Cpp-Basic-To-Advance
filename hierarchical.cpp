@@ -9,7 +9,7 @@ class Vehicle
 public:
 	Vehicle()
 	{
-	cout << "This is a Vehicle\n";
+	cout << "This is a Vehicle\n"; //base class
 	}
 };
 
