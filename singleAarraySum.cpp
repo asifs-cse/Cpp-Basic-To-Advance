@@ -7,7 +7,7 @@ int main(){
     for (int i = 0; i < 10; i++)
     {
         cout<<"Enter "<<i<<" value: ";
-        cin>>a[i];
+        cin>>a[i]; //input array
     }
     
     cout<<"Enter secound array values: "<<endl;
