@@ -26,6 +26,5 @@ int main(){
     cout<<"Volume of Box1: "<<ptrBox->Volume()<<endl;
     ptrBox = &box2;
     cout<<"Volume of Box2: "<<ptrBox->Volume()<<endl;
-  
     return 0;
 }
