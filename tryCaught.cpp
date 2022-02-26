@@ -10,7 +10,7 @@ double division(int a, int b) {
 
 int main () {
    int x = 50;
-   int y = ;
+   int y = 7;
    double z = 0;
  
    try {

@@ -9,6 +9,8 @@ public:
     void setCostValue(int a){costRate = a;}
     int totalCost(rectangle A);
 };
+//friend function
+
 
 class rectangle{
     int height;
