@@ -18,7 +18,7 @@ class rectangle{
 public:
     void set(int a, int b){height = a; width =b;}
     int area(){
-        return height*width;
+        return height*width; //return height*width
     }
     friend int cost::totalCost(rectangle A);
 };
