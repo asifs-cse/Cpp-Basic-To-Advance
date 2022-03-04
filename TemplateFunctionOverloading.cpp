@@ -15,6 +15,6 @@ void add(int a, int b){
 int main(){
     cout<<"Addition int and float: "<<add(9.5, 10)<<endl;
     cout<<"Return same value: "<<add(9)<<endl;
-    add(5,4);
+    add(5,4); //function call
     return 0;
 }
