@@ -10,7 +10,7 @@ T1 add(T1 a, T2 b){
     return a+b; //return additon
 }
 void add(int a, int b){
-    cout<<"Addition two int: "<<a+b;
+    cout<<"Addition two int: "<<a+b;// addition two int
 }
 int main(){
     cout<<"Addition int and float: "<<add(9.5, 10)<<endl;
