@@ -29,7 +29,7 @@ int cost::totalCost(rectangle A){
 }
 
 int main(){
-    rectangle r; // create object
+    rectangle r; //create object
     r.set(5,6); //object call
     cout<<r.area()<<endl;
     cost c;

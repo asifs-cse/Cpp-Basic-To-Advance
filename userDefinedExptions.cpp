@@ -6,7 +6,7 @@ class Divide_By_Zero_Exception : public exception{
     public:
         const char * what() const throw()
         {
-            return "Divide By Zero Exception\n";
+            return "Divide By Zero Exception\n"; //return throw
         }
 };
  
